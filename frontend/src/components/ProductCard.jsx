@@ -1,0 +1,2 @@
+import React from 'react';
+export default function ProductCard({product, onAdd}){ return (<div className='card'><img src={product.imageUrl||'https://via.placeholder.com/260x140'} alt='' style={{width:'100%'}}/><h4>{product.name}</h4><p style={{height:40,overflow:'hidden'}}>{product.description}</p><div style={{display:'flex',justifyContent:'space-between'}}><strong>₹{product.price}</strong><button onClick={()=>onAdd(product)}>Add</button></div></div>); }

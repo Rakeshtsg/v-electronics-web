@@ -1,0 +1,1 @@
+Swagger (OpenAPI) is available via springdoc-openapi dependency. After running the app, visit /swagger-ui/index.html
